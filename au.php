@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: au
-* Version:3.0
+* Version:4.0
 * slug : au,
 * Author: K.P.
 * description : Plugin description here. Basic HTML allowed.
@@ -17,7 +17,7 @@ function au_init(){
   $plugin_info = get_file_data(__FILE__, ['version' => 'Version']);
   echo "Plugin Version:". $plugin_info['version'];
   
-  $res = execute("git pull");
+  $res = execute("git pull origin master");
 
 }
 
