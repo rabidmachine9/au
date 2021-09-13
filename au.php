@@ -18,7 +18,15 @@ function au_init(){
   echo "Plugin Version:". $plugin_info['version'];
   
   $res = execute("git pull origin master");
+  print_pr($res);
 
+}
+
+
+function print_pr($array) {
+  echo "<pre>";
+  print_r($array);
+  echo "</pre>";
 }
 
 
