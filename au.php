@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: au
-* Version:1.0
+* Version:2.0
 * slug : au,
 * Author: K.P.
 * description : Plugin description here. Basic HTML allowed.
